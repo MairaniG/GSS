@@ -60,6 +60,8 @@ table1 <- xtabs(~CAPPUN + OWNGUN, data=GSSdata)
 rowPerc(table1)
 colPerc(table1)
 ```
+This table shows that the largest group opposing CAPPUN are people that dont own a gun, they are 70.97 of the total group of opposers.
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ### Inferential Results
