@@ -50,7 +50,8 @@ barchartGC(~CAPPUN + OWNGUN,data=GSSdata)
 barchartGC(~CAPPUN + OWNGUN,data=GSSdata, type="percent")
 
 ```
-#### Numerical Descriptive Results
+
+#### Numerical Descriptive Results  
 The Plot barplots show that there is a higher frequency of people who favor the death penalty compared to those who oppose it.It also shows that if they oppose the penalty, they are more likely to not be a gun owner.
 
 
@@ -70,7 +71,7 @@ Is there a difference in years of education (EDUC) between the those who did or 
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-##Results
+## Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
@@ -98,7 +99,7 @@ Determine if a persons performance on the wordsum test (WORDSUM) is independent 
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-##Results
+## Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
