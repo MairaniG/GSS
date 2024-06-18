@@ -55,7 +55,11 @@ The Plot barplots show that there is a higher frequency of people who favor the 
 
 #### Numerical Descriptive Results  
 
-
+```{r}
+table1 <- xtabs(~CAPPUN + OWNGUN, data=GSSdata)
+rowPerc(table1)
+colPerc(table1)
+```
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ### Inferential Results
