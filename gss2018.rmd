@@ -51,8 +51,9 @@ barchartGC(~CAPPUN + OWNGUN,data=GSSdata, type="percent")
 
 ```
 
+The Plot barplots show that there is a higher frequency of people who favor the death penalty compared to those who oppose it.It also shows that if they oppose the penalty, they are more likely to not be a gun owner.    
+
 #### Numerical Descriptive Results  
-The Plot barplots show that there is a higher frequency of people who favor the death penalty compared to those who oppose it.It also shows that if they oppose the penalty, they are more likely to not be a gun owner.
 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
