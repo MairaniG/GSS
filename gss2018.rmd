@@ -177,7 +177,8 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The table shows that there is a relationship between a persons score on the WORDSUM test and their level of education. <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+The table shows that there is a relationship between a persons score on the WORDSUM test and their level of education. LT High School for example, had 0.00 of people get a 12 on the WORDSUM test.  
+<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ### Inferential Results
 
