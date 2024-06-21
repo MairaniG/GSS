@@ -32,7 +32,6 @@ OWNGUN is a categorical variable, so I use the cat-cat helper file.
 
 ## Results
 
-
 ### Descriptive Results
 
 #### Graphical Descriptive Results
@@ -72,18 +71,15 @@ The p-value for the fisher exact test was p= 0.01651, and the odds ratio was 2.2
 
 # Question 2
 
-
 Is there a difference in years of education (EDUC) between the those who did or did not vote in 2012 (VOTE12)?
 
 ## Methods
-
 
 $H_0$: there is no difference in years of education(EDUC) between those who did or didn't vote in 2012(VOTE12).
 
 $H_A$: There is a difference in years of education(EDUC) between those who did or didn't vote in 2012(VOTE12).
 
 ## Results
-
 
 ### Descriptive Results
 
@@ -137,7 +133,6 @@ $H_A$: There is a difference between a persons performance on the wordsum test a
 
 ### Results
 
-
 ### Descriptive Results
 
 WORDSUM is a numerical variable and DEGREE is a categorical variable, so I use the Numerical-Cat helper file.  
@@ -150,12 +145,12 @@ plot(WORDSUM~DEGREE,data=GSSdata)
 
 The plot shows that the highest scorers (a score of 12) had a bachelors degree. They averaged a score around 10 and LT High School averaged around 6-8.  
 
-
-
 #### Numerical Descriptive Results
+```{r}
+favstats(WORDSUM~DEGREE,data=GSSdata)
+```
 
-
-
+The numerical summary shows that LT High School had a lower minimum on the test with a score of 3.Graduates had a higher minimum of 7, indicating that a higher level of education results in a higher score on the WORDSUM test.
 
 ### Inferential Results
 
