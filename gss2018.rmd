@@ -21,13 +21,14 @@ source("GrabData.R")
 The data in the dataframe GSSdata is from the 2018 General Social Survey. The first blocks of R-code has selected down a subset of the data to just 16 variables. It has further removed unwanted factor levels in much of the data. Examine the code in the GrabData.R file to see what it is doing. Some of the variables are categorical and others are numerical. Be sure to do a variable analysis before tackling each question.\
 First question - Is opinion on the death penalty (CAPPUN) independent of gun ownership (OWNGUN)?
 
-$H_0$: CAPPUN is independent of OWNGUN
-$H_A$: CAPPUN is not independent of OWNGUN
+$H_0$: CAPPUN is independent of OWNGUN  
+
+$H_A$: CAPPUN is not independent of OWNGUN    
 
 ## Methods
 
 
-CAPPUN is a categorical variable,\
+CAPPUN is a categorical variable,
 OWNGUN is a categorical variable, so I use the cat-cat helper file.
 
 ## Results
@@ -73,19 +74,20 @@ The p-value for the fisher exact test was p= 0.01651, and the odds ratio was 2.2
 
 Is there a difference in years of education (EDUC) between the those who did or did not vote in 2012 (VOTE12)?
 
+$H_0$: there is no difference in years of education(EDUC) between those who did or didn't vote in 2012(VOTE12).   
+
+
+$H_A$: There is a difference in years of education(EDUC) between those who did or didn't vote in 2012(VOTE12).     
+
 ## Methods
+Years of education (EDUC) is a numerical variable. It is a quantitative measure.
 
-$H_0$: there is no difference in years of education(EDUC) between those who did or didn't vote in 2012(VOTE12).
-
-$H_A$: There is a difference in years of education(EDUC) between those who did or didn't vote in 2012(VOTE12).
+Voting in 2012(VOTE12) is categorical,yes or no.  
 
 ## Results
 
 ### Descriptive Results
 
-Years of education (EDUC) is a numerical variable. It is a quantitative measure.
-
-Voting in 2012(VOTE12) is categorical,yes or no.
 
 #### Graphical Descriptive Results
 
@@ -124,18 +126,19 @@ The Welch Two Sample t-test shows that the p-value = 1.248e-07 (0.0000001248). I
 
 Determine if a persons performance on the wordsum test (WORDSUM) is independent of their level of schooling (DEGREE).
 
+$H_0$: There is no difference between a persons performance on the wordsum test and their level of schooling.    
+
+
+$H_A$: There is a difference between a persons performance on the wordsum test and their level of schooling.    
+
 ## Methods
+  
+WORDSUM is a numerical variable and DEGREE is a categorical variable, so I use the Numerical-Cat helper file.    
 
-
-$H_0$: There is no difference between a persons performance on the wordsum test and their level of schooling.
-
-$H_A$: There is a difference between a persons performance on the wordsum test and their level of schooling.
 
 ### Results
 
 ### Descriptive Results
-
-WORDSUM is a numerical variable and DEGREE is a categorical variable, so I use the Numerical-Cat helper file.  
 
 #### Graphical Descriptive Results
 
