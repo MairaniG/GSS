@@ -21,7 +21,7 @@ source("GrabData.R")
 The data in the dataframe GSSdata is from the 2018 General Social Survey. The first blocks of R-code has selected down a subset of the data to just 16 variables. It has further removed unwanted factor levels in much of the data. Examine the code in the GrabData.R file to see what it is doing. Some of the variables are categorical and others are numerical. Be sure to do a variable analysis before tackling each question.\
 First question - Is opinion on the death penalty (CAPPUN) independent of gun ownership (OWNGUN)?
 
-$H_0$: CAPPUN is independent of OWNGUN\
+$H_0$: CAPPUN is independent of OWNGUN
 $H_A$: CAPPUN is not independent of OWNGUN
 
 ## Methods
@@ -107,7 +107,7 @@ favstats(EDUC~VOTE12,data=GSSdata)
 ```
 
 
-The numerical summary shows that for individuals who voted in 2012 (voted12), the lowest level of education among the group is 9 years.For those that didn't vote, it was 7 years.\
+The numerical summary shows that for individuals who voted in 2012 (voted12), the lowest level of education among the group is 9 years.For those that didn't vote, it was 7 years.  
 Therefore, those that voted had more education.
 
 ### Inferential Results
@@ -172,5 +172,10 @@ There is no difference between education in highschool and less than highschool 
 
 
 # Discussion and Conclusion
+For Question 1, the barchart shows that opposers of the penalty are more likely to not own a gun. The p-value for the Chi-squared test was p=0.02022,it was small, also proving that the null hypothesis is rejected because opinion on capital punishment is dependent of gun ownership.CAPPUN is not independent of OWNGUN.
+
+For Question 2, the null-hypothesis,"There is no difference in years of education(EDUC) between those who did or didn't vote in 2012(VOTE12)" is rejected. The plot showed that VOTE12 was higher as the education was higher. Favstats also represented the years of education voters had. Voters had more years of education vs non-voters. Lastly, the t-test shows that the p-value = 0.0000001248,which is so small that it tells us we reject the null hypothesis.
+
+For Question 3, the p-value was 0.0000002, so the null hypothesis was rejected. The plot and favstats showed that higher levels of education typically ranked higher on the WORDSUM test than highschoolers. Therefore, it was not proven that there is no difference between a persons performance on the wordsum test and their level of schooling.
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
